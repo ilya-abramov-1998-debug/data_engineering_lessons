@@ -21,6 +21,6 @@ print(type(df1))
 
 df1.to_csv("from_pandas.csv", index=False)
 
-df2 = pd.read_csv("from_pandas.csv")
-print(df2)
-print(type(df2))
+# df2 = pd.read_csv("from_pandas.csv")
+# print(df2)
+# print(type(df2))
